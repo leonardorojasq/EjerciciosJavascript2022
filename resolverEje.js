@@ -29,10 +29,10 @@ console.log(devolverArray());*/
 /* 4) Programa una función que repita un texto X veces,
 pe. miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo */
       //Tu codigo va Aqui
-      function repe(){
+/*      function repe(){
         let texto = "Hola Mundo ";
         let palabra = texto.repeat(3);
         return palabra;
       }
-console.log(repe());
+console.log(repe());*/
 
