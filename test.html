@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <script>
+
+     //Definimos un metodo para el tipo de datos "string", que lo unico que hace es devolver nuestra palabra en orden inverso.
+    String.prototype.reverse=function(){return this.split("").reverse().join("");}
+
+   function testCapCua(word) {
+   
+    
+    //Una vez definido, ya lo tenemos practicamente hecho.
+    var inverseWord = word.reverse();
+    if (word == inverseWord) { //Si la palabra es igual a la palabra girada.
+     alert("La palabra '"+word+"' SI es cap i cua");
+     return(true); //Es capicua/palindromo.
+    }
+    else {
+     alert("La palabra '"+word+"' NO es cap i cua: '"+inverseWord+"'");
+     return(false); //NO es capicua/palindromo.
+    } 
+   } 
+  </script>
+ </head>
+ 
+ <body>
+  <input type="text" placeholder="Introducir palabra." id="input-word" />
+  <input type="button" onclick="testCapCua(document.getElementById('input-word').value)"
+   value="Comprobar"/>
+ </body>
+</html>
