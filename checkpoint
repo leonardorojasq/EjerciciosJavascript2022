@@ -11,8 +11,8 @@ function minutosASegundos(minutos) {
   // minutosASegundos(3) => 180
   // Tu código aca:
   
-  minutos = minutos * 60;
-  return minutos;
+  // minutos = minutos * 60;
+  // return minutos;
 
 }
 
@@ -26,15 +26,16 @@ function promedio(array) {
 
   // Tu código aca:
   
-  let resultado = 0;
-  for (let i = 0; i < array.length; i++) {
-        array += i;
-        resultado = array[i] / array.length;
+//   let suma = 0;
+//   for (let i = 0; i < array.length; i++) {
+//        suma += array[i];
+
     
-  }
-        return resultado;
-}
-console.log(promedio([10, 20, 3]))
+    
+//   }
+//         return resultado;
+// }
+// console.log(promedio([10, 20, 3]))
 
 
 function salarioAnual(empleados, nombre) {
