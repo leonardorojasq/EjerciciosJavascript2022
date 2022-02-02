@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\ES6\\.vscode"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\ES6\\node_modules"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\ES6\\youtube-js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EjerciciosJavascript2022"
+	}
+}
